@@ -7,40 +7,57 @@
 
 <style>
 
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
-    background:#0055A4;
+}
+
+body{
+    background:linear-gradient(135deg,#0055A4,#0088ff);
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
 }
 
-.caja{
+.card{
     background:white;
     width:380px;
+    padding:35px;
     border-radius:20px;
-    padding:30px;
-    box-shadow:0 10px 30px rgba(0,0,0,.3);
     text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.logo{
+    font-size:60px;
 }
 
 h1{
     color:#0055A4;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#666;
+    margin-bottom:20px;
 }
 
 input{
-    width:90%;
-    padding:12px;
-    margin:10px 0;
+    width:100%;
+    padding:14px;
+    margin-top:12px;
     border-radius:10px;
     border:1px solid #ccc;
     font-size:16px;
 }
 
 button{
-    width:95%;
+    width:100%;
+    margin-top:25px;
     padding:15px;
     background:#0055A4;
     color:white;
@@ -48,10 +65,17 @@ button{
     border-radius:10px;
     font-size:18px;
     cursor:pointer;
+    transition:.3s;
 }
 
 button:hover{
-    background:#003d75;
+    background:#003f80;
+}
+
+.footer{
+    margin-top:20px;
+    color:#888;
+    font-size:13px;
 }
 
 </style>
@@ -60,19 +84,12 @@ button:hover{
 
 <body>
 
-<div class="caja">
+<div class="card">
 
-<h1>👟 Cultura Organizacional SKECHERS</h1>
+<div class="logo">👟</div>
 
-<p>Bienvenido</p>
+<h1>Cultura Organizacional SKECHERS</h1>
 
-<input type="text" placeholder="Nombre">
+<p>Bienvenido a la plataforma de evaluación.</p>
 
-<input type="text" placeholder="CM">
-
-<button>Ingresar</button>
-
-</div>
-
-</body>
-</html>
+<input type="text" placeholder
