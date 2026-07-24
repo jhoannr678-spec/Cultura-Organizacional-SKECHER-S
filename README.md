@@ -1,0 +1,1 @@
+# Cultura-Organizacional-SKECHER-S
